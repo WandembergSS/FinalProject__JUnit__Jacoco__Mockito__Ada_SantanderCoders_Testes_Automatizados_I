@@ -1,0 +1,21 @@
+//This file was created automatically and is intented to be checked-in.
+releasing {
+   gitHub.repository = "mockito/mockito-release-tools-example"
+   gitHub.readOnlyAuthToken = "e7fe8fcfd6ffedac384c8c4c71b2a48e646ed1ab"
+   gitHub.writeAuthUser = "shipkit"
+}
+
+allprojects {
+   plugins.withId("org.mockito.mockito-release-tools.bintray") {
+       bintray {
+           pkg {
+               repo = 'examples'
+               user = 'szczepiq'
+               userOrg = 'shipkit'
+               name = 'basic'
+               licenses = ['MIT']
+               labels = ['continuous delivery', 'release automation', 'mockito']
+           }
+       }
+   }
+}
