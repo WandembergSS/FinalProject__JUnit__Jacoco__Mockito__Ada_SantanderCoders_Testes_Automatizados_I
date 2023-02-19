@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.banco.model.ClienteTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-02-19T06:02:04" hostname="DW" time="0.907">
+  <properties/>
+  <testcase name="testSetNome()" classname="org.banco.model.ClienteTest" time="0.903"/>
+  <testcase name="testSetTipo()" classname="org.banco.model.ClienteTest" time="0.001"/>
+  <testcase name="testSetCpf()" classname="org.banco.model.ClienteTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
